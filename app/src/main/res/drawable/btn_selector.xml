@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <item android:state_pressed="true" tools:ignore="StateListReachable">
+        <shape>
+            <stroke android:width="2dp" android:color="@color/purple_700" />
+            <corners android:radius="10dp" />
+            <gradient android:endColor="@color/teal_700" android:startColor="@color/primary" />
+            <solid android:color="@color/primary" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <stroke android:width="2dp" android:color="@color/purple_700" />
+            <solid android:color="@color/primary" />
+            <corners android:radius="10dp" />
+            <gradient android:endColor="@color/teal_700" android:startColor="@color/primary" />
+        </shape>
+    </item>
+
+</selector>

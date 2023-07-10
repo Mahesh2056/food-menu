@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/chocolatewhite">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_700"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="MENU CARD"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        // samosa
+
+        <TextView
+            android:id="@+id/samosa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="SAMOSA"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/menu1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/samosa"
+            android:gravity="left"
+            android:padding="1dp"
+            android:text="per samosa RS.15"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        // chowmein
+        <TextView
+            android:id="@+id/chowmein"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu1"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="CHOWMEIN"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/menu2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chowmein"
+            android:gravity="left"
+            android:padding="1dp"
+            android:text="veg chowmein RS.50
+                           Non-veg chowmein RS. 100"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+        // momo
+        <TextView
+            android:id="@+id/momo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu2"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="MOMO"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/menu3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/momo"
+            android:gravity="left"
+            android:padding="1dp"
+            android:text="veg momo per plate RS.40
+                           Non-veg momo per plate RS. 80"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+        // dhikri
+        <TextView
+            android:id="@+id/dhikri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu3"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="DHIKRI"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/menu4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dhikri"
+            android:gravity="left"
+            android:padding="1dp"
+            android:text="per plate RS.100"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+        // ghongi
+        <TextView
+            android:id="@+id/ghongi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu4"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="GHONGI"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/menu5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ghongi"
+            android:gravity="left"
+            android:padding="1dp"
+            android:text="per plate RS.150"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+        // SEKUWA
+        <TextView
+            android:id="@+id/sekuwa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu5"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="SEKUWA"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/menu6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sekuwa"
+            android:gravity="left"
+            android:padding="1dp"
+            android:text="per plate RS.500"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+        // dalbhat
+        <TextView
+            android:id="@+id/dalbhat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menu6"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="DAL-BHAT"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/menu7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dalbhat"
+            android:gravity="left"
+            android:padding="1dp"
+            android:text="veg plate RS.60
+                          Non-veg plate 200"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginBottom="18dp"
+                android:layout_below="@id/menu7"
+                android:background="@drawable/btn_selector"
+                android:text="Order NOw"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:padding="20dp"
+                android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

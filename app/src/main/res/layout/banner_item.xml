@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/hotelbackground"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/location"
+            android:text="Dhoolkot mafi,Chakrata Road,Dehradun"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/baseline_edit_location_24"
+            android:padding="10dp"
+            android:background="#8333"
+            android:layout_toLeftOf="@+id/rating"
+            android:layout_alignParentBottom="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nepali hotel"
+            android:textAllCaps="true"
+            android:paddingLeft="10dp"
+            android:textSize="26sp"
+            android:textColor="@color/white"
+            android:background="#8333"
+            android:layout_above="@id/location"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
